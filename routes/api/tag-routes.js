@@ -59,7 +59,7 @@ router.put('/:id', (req, res) => {
   })
   .then(dbTagData => {
     if (!dbTagData){
-      res.status(500).json({message: "No tag found matching this id"});
+      res.status(500).json({ message: "No tag found matching this id" });
       return;
     }
     res.json(dbTagData);
@@ -79,7 +79,7 @@ router.delete('/:id', (req, res) => {
   })
   .then(dbTagData => {
     if(!dbTagData) {
-      res.status(500).json({message: "No tag found matching this id"});
+      res.status(500).json({ message: "No tag found matching this id" });
       return;
     }
     res.json(dbTagData);
