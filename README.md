@@ -1,7 +1,7 @@
 ![badge](https://img.shields.io/badge/license-MIT-yellowgreen)
 
 # ecommerce-backend
-ecommerce backend takes an express.js API and configures it to use Sequelize to interact with a MySQL databse
+ecommerce backend takes an express.js API and configures it to use Sequelize to interact with a MySQL database
 
 ## Table of Contents
 * [Installation](#installation)
